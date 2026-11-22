@@ -2,7 +2,7 @@
 
 # Gemini CLI Docker 环境
 
-[![CI](https://github.com/ycpss91255-docker/gemini_cli/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-docker/gemini_cli/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](../LICENSE)
+[![CI](https://github.com/ycpss91255-lab/gemini_cli/actions/workflows/main.yaml/badge.svg)](https://github.com/ycpss91255-lab/gemini_cli/actions/workflows/main.yaml) [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](../LICENSE)
 
 Docker-in-Docker (DinD) 开发容器，搭载 Google AI 命令行工具 Gemini CLI。提供 CPU 与 NVIDIA GPU 两种版本，以非 root 用户身份执行，并自动匹配主机的 UID/GID。
 
@@ -222,7 +222,7 @@ rm .env.keys
 
 ```bash
 git subtree add --prefix=docker/gemini_cli \
-    https://github.com/ycpss91255-docker/gemini_cli.git main --squash
+    https://github.com/ycpss91255-lab/gemini_cli.git main --squash
 ```
 
 添加后的目录结构示例：
@@ -266,7 +266,7 @@ cd docker/gemini_cli
 
 ```bash
 git subtree pull --prefix=docker/gemini_cli \
-    https://github.com/ycpss91255-docker/gemini_cli.git main --squash
+    https://github.com/ycpss91255-lab/gemini_cli.git main --squash
 ```
 
 > **注意事项**：
